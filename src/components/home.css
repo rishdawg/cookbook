@@ -1,0 +1,16 @@
+
+
+@media(min-width:601px){
+.marg{
+  margin-left:45%;
+}}
+@media(min-width:765px){
+.marg{
+  margin-left:36%;
+}
+.fnt{ font-size: 64px;}
+}
+@media(min-width:1000px){
+.marg{
+  margin-left:27%;
+}}

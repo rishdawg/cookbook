@@ -1,0 +1,16 @@
+.topnav{
+  width:25% !important;
+}
+@media(min-width:601px){
+.w3-sidebar{
+  width:45%;
+}}
+@media(min-width:765px){
+.w3-sidebar{
+  width:36%;
+}
+}
+@media(min-width:1000px){
+.w3-sidebar{
+  width:27%;
+}}

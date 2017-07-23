@@ -3,8 +3,26 @@
 @media(min-width:601px){
 .marg{
   margin-left:45%;
-}}
+}
+.modal{
+  position: relative;
+  left:2%;
+  width:70%;
+  height:70%;
+  top:10%;
+}
+
+
+}
 @media(min-width:765px){
+  .modal{
+    position: relative;
+    left:2%;
+    width:60%;
+    height:60%;
+    top:10%;
+  }
+
 .marg{
   margin-left:36%;
 }
@@ -13,4 +31,16 @@
 @media(min-width:1000px){
 .marg{
   margin-left:27%;
-}}
+}
+.modal{
+  position: relative;
+  left:2%;
+  width:70%;
+  height:70%;
+  top:10%;
+}
+
+}
+.wdt{
+  width:100%;
+}

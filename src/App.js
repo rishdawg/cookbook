@@ -5,6 +5,7 @@ import './w3.css';
 import Navigation from './components/Navigation.js'
 import Home from './components/Home.js'
 import Snacks from './components/Snacks.js'
+import Modalcreate from './components/modal.js'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Navigation />
         <Home />
         <Snacks/>
+        <Modalcreate/>
       </div>
     );
   }

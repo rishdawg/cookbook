@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import './home.css';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
+import ReactModal from 'react-modal';
+import '../w3.css';
+import './home.css';
 
-const customStyles = {
-  content : {
-    top                   : '50%',
-    left                  : '50%',
-    right                 : 'auto',
-    bottom                : 'auto',
-    marginRight           : '-50%',
-    transform             : 'translate(-50%, -50%)'
-  }
-};
+
+
 class Singularsnack extends Component{
-  constructor() {
-    super();
-
+  constructor(props) {
+    super(props);
+    const ingred = this.props.ingredients;
+    this.ingredlistItems = ingred.map((ingred) =>
+      <li>{ingred}</li>
+    );
+    const instruc = this.props.instructions;
+    this.instruclistItems = instruc.map((instruc) =>
+      <li>{instruc}</li>
+    );
     this.state = {
       modalIsOpen: false
     };
@@ -40,12 +41,12 @@ class Singularsnack extends Component{
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
-          style={customStyles}
+          className="w3-black marg modal"
         >
           <div>
-          <h2>Hello</h2>
           <button onClick={this.closeModal}>close</button>
-          <div>I am a modal</div>
+          <ul>{this.ingredlistItems}</ul>
+          <ol>{this.instruclistItems}</ol>
           </div>
           </Modal>
       </div>

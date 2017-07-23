@@ -10,16 +10,16 @@ class Navigation extends Component {
         <img src={RishiBhai}/>
         <div className="w3-opacity w3-hover-opacity-off">
         <a href="#" className="w3-bar-item w3-button w3-padding-large w3-hover-blue">
-          <p>HOME</p>
+          <p className="w3-large">HOME</p>
         </a>
         <a href="#s" className="w3-bar-item w3-button w3-padding-large w3-hover-blue">
-          <p>Snacks</p>
+          <p className="w3-large">Snacks</p>
         </a>
         <a href="#im" className="w3-bar-item w3-button w3-padding-large w3-hover-blue">
-          <p>Indian</p>
+          <p className="w3-large">Indian</p>
         </a>
         <a href="#nim" className="w3-bar-item w3-button w3-padding-large w3-hover-blue">
-          <p>Other</p>
+          <p className="w3-large">Other</p>
         </a>
       </div>
       </nav>

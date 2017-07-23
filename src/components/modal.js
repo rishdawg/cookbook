@@ -31,7 +31,7 @@ class Modalcreate extends React.Component {
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
-          className="w3-blue marg modal"
+          className="w3-black marg modal"
         >
 
           <button onClick={this.closeModal}>close</button>

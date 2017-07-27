@@ -15,12 +15,12 @@ class Snacks extends Component {
     var popcorn_steps = ["Take a big pot and place heat on medium", "Put oil into the pot", "put popcorn seeds into pot and cover the pot", "raise heat to high","Shut off heat when seeds are done popping","Mix all spices in thoroughly"];
     var peanuts_steps = ["Heat oil on medium heat on a skillet","place in peanuts and stir for 2 mins","put in all spices and stir for 2 mins", "Let it sit on pan for 10-15 mins with no cover", "Seal in ziplock or container that does not allow air to come in"]
     return (
-      <div className="w3-black marg"id="s">
+      <div className="w3-black marg">
             <header className="w3-container w3-black " >
-                <h1 className="fnt w3-center w3-padding-large">Snacks</h1>
-                <hr/>
+                <h1 id="s" className="fnt w3-center w3-padding-large">Snacks</h1>
+                <hr />
             </header>
-            <Singularsnack image={popcorn} title="PopCorn" ingredients={popcorn_ing} instructions={popcorn_steps}/>
+            <Singularsnack image={popcorn} title="Popcorn" ingredients={popcorn_ing} instructions={popcorn_steps}/>
             <Singularsnack image={peanuts} title="Peanuts" ingredients={peanuts_ing} instructions={peanuts_steps}/>
       </div>
     );

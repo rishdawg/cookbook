@@ -6,7 +6,8 @@ import Navigation from './components/Navigation.js'
 import Home from './components/Home.js'
 import Snacks from './components/Snacks.js'
 import Modalcreate from './components/modal.js'
-
+import Indian from './components/indian_food.js'
+import NonIndian from './components/non_indian.js'
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,8 @@ class App extends Component {
         <Navigation />
         <Home />
         <Snacks/>
+        <Indian/>
+        <NonIndian/>
       </div>
     );
   }

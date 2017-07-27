@@ -35,18 +35,36 @@ class Singularsnack extends Component{
 
   render(){
     return(
-      <div className="w3-card-4 w3-container w3-half w3-mobile"onClick={this.openModal}>
+      <div className="w3-card-4 w3-container w3-half w3-mobile "onClick={this.openModal}>
         <img className="w3-image" src={this.props.image} alt={this.props.title}/>
         <h1 className="w3-center w3-cyan"><b>{this.props.title}</b></h1>
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
-          className="w3-black marg modal"
+          className="marg modal"
         >
           <div>
-          <button onClick={this.closeModal}>close</button>
-          <ul>{this.ingredlistItems}</ul>
-          <ol>{this.instruclistItems}</ol>
+
+            <header className="w3-container w3-cyan">
+              <span onClick={this.closeModal} className="w3-button w3-display-topright w3-xlarge w3-hover-red">&times;</span>
+              <h2 className="w3-center">{this.props.title}</h2>
+            </header>
+
+          <div className="w3-container  w3-white snkfnt">
+
+            <div className="w3-half w3-left w3-mobile">
+              <ul>{this.ingredlistItems}</ul>
+            </div>
+            <div className="w3-half w3-right w3-white">
+              <ol>{this.instruclistItems}</ol>
+            </div>
+          </div>
+
+
+
+            <footer className="w3-container w3-cyan w3-center">
+              <h3>The Rish Dawg  Process</h3>
+            </footer>
           </div>
           </Modal>
       </div>

@@ -2,23 +2,36 @@
 .modal{
   position: relative;
   left:2%;
-  width:95%;
-  height:70%;
-  top:10%;
+  width:96%;
+  top:6%;
+  overflow: scroll;
+  height:550px;
+}
 }
 
+@media(max-height:480px){
+  .modal{
+    position: relative;
+    left:2%;
+    width:96%;
+    top:6%;
+    overflow: scroll;
+    height:460px;
+  }
 }
 
 @media(min-width:601px){
 .marg{
-  margin-left:45%;
+  margin-left:27%;
 }
 .modal{
   position: relative;
   left:2%;
   width:70%;
-  height:70%;
+  height: auto;
+  overflow: hidden;
   top:10%;
+
 }
 
 
@@ -27,16 +40,17 @@
   .modal{
     position: relative;
     left:2%;
-    width:60%;
-    height:60%;
+    width:70%;
+    /*height:70%;*/
     top:10%;
   }
 
 .marg{
-  margin-left:36%;
+  margin-left:27%;
 }
 .fnt{ font-size: 64px;}
 }
+
 @media(min-width:1000px){
 .marg{
   margin-left:27%;
@@ -45,7 +59,7 @@
   position: relative;
   left:2%;
   width:70%;
-  height:70%;
+  /*height:70%;*/
   top:10%;
 }
 

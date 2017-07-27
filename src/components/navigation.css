@@ -3,11 +3,11 @@
 }
 @media(min-width:601px){
 .w3-sidebar{
-  width:45%;
+  width:27%;
 }}
 @media(min-width:765px){
 .w3-sidebar{
-  width:36%;
+  width:27%;
 }
 }
 @media(min-width:1000px){

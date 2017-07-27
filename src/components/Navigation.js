@@ -7,7 +7,9 @@ class Navigation extends Component {
     return (
       <div className="w3-black">
       <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black w3-border-right w3-border-blue w3-left ">
-        <img src={RishiBhai}/>
+        <div className="w3-container">
+          <img className="w3-image"src={RishiBhai}/>
+          </div>
         <div className="w3-opacity w3-hover-opacity-off">
         <a href="#" className="w3-bar-item w3-button w3-padding-large w3-hover-blue">
           <p className="w3-large">HOME</p>

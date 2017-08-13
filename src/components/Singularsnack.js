@@ -5,11 +5,6 @@ import ReactModal from 'react-modal';
 import '../w3.css';
 import './home.css';
 
-const customStyles = {
-  overlay : {
-  height:'100vh'
-  }
-};
 
 class Singularsnack extends Component{
   constructor(props) {
@@ -45,7 +40,7 @@ class Singularsnack extends Component{
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
-          style = {this.customstyles}
+          overlayClassName = "overlay"
           className="marg modal"
         >
           <div>

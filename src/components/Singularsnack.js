@@ -5,7 +5,11 @@ import ReactModal from 'react-modal';
 import '../w3.css';
 import './home.css';
 
-
+const customStyles = {
+  content : {
+  height:'100vh';
+  }
+};
 
 class Singularsnack extends Component{
   constructor(props) {
@@ -41,6 +45,7 @@ class Singularsnack extends Component{
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
+          style = {customstyles};
           className="marg modal"
         >
           <div>

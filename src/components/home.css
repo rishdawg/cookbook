@@ -4,7 +4,7 @@
   left:2%;
   width:96%;
   top:6%;
-  overflow: scroll;
+  overflow-y: scroll;
   max-height:550px;
 }
 }
@@ -15,7 +15,7 @@
     left:2%;
     width:96%;
     top:6%;
-    overflow: scroll;
+    overflow-y: scroll;
     max-height:460px;
   }
 }

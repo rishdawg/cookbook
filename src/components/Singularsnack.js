@@ -50,7 +50,7 @@ class Singularsnack extends Component{
               <h2 className="w3-center">{this.props.title}</h2>
             </header>
 
-          <div className="w3-container  w3-white snkfnt">
+          <div className="w3-container  w3-white ">
 
             <div className="w3-half w3-left w3-mobile">
               <ul>{this.ingredlistItems}</ul>

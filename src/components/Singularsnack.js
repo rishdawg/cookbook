@@ -6,8 +6,8 @@ import '../w3.css';
 import './home.css';
 
 const customStyles = {
-  content : {
-  height:'100vh';
+  overlay : {
+  height:'100vh'
   }
 };
 
@@ -45,7 +45,7 @@ class Singularsnack extends Component{
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
-          style = {customstyles};
+          style = {this.customstyles}
           className="marg modal"
         >
           <div>

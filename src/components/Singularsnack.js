@@ -35,7 +35,7 @@ class Singularsnack extends Component{
   render(){
     return(
       <div className="w3-card-4 w3-container w3-half w3-mobile "onClick={this.openModal}>
-        <img className="w3-image" src={this.props.image} alt={this.props.title}/>
+        <img className="wdt hgt" src={this.props.image} alt={this.props.title}/>
         <h1 className="w3-center w3-cyan"><b>{this.props.title}</b></h1>
         <Modal
           isOpen={this.state.modalIsOpen}

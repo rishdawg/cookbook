@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../w3.css';
 import './home.css';
-import popcorn from '../img/SpicyPopcornWeb.jpg';
-import peanuts from '../img/spicy_peanuts.JPG';
 import Singularsnack from './Singularsnack.js';
 
 const popcorn_ing = ["3 tbsp Sunflower Seed Oil","1 tbsp Pink Salt","1 tbsp Black Pepper", "1 tbsp chilli powder","1 tbsp tumeric","2 cups popcorn"];
@@ -12,13 +10,13 @@ const peanuts_steps = ["Heat oil on medium heat on a skillet","place in peanuts 
 
 const all_snacks = [
   {
-    image: popcorn,
+    image: "https://s3.us-east-2.amazonaws.com/cookbookpic/SpicyPopcornWeb.jpg",
     title: 'Popcorn',
     ingredients: popcorn_ing,
     instructions: popcorn_steps
   },
   {
-    image: peanuts,
+    image: "https://s3.us-east-2.amazonaws.com/cookbookpic/spicy_peanuts.JPG",
     title: 'Peanuts',
     ingredients: peanuts_ing,
     instructions: peanuts_steps

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../w3.css';
 import './home.css';
-import burger from '../img/lamb_burger.jpg';
-import Basil_Rice from '../img/Thai_basil.JPG';
 import Singularsnack from './Singularsnack.js';
 
 const lamb_ing = ["1.33 lbs ground lamb","1 tbsp Pink Salt","2 tbsp Black paprika", "2 small cut onions","3 minced garlic pieces","1.5 cups of argula","3 tbsp of olive oil","1.33 cups of feta"];
@@ -12,13 +10,13 @@ const Basil_steps = ["Crush thai chilli and garlic together","whisk the 3 sauces
 
 const all_non_indian = [
   {
-    image: burger,
+    image: "https://s3.us-east-2.amazonaws.com/cookbookpic/lamb_burger.jpg",
     title: 'Lamb Burger',
     ingredients: lamb_ing,
     instructions: lamb_steps
   },
   {
-    image: Basil_Rice,
+    image: "https://s3.us-east-2.amazonaws.com/cookbookpic/Thai_basil.JPG",
     title: 'Basil Rice',
     ingredients: Basil_ing,
     instructions: Basil_steps

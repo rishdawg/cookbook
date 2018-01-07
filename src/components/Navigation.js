@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import RishiBhai from'../img/RishiBhai.png'
 import './navigation.css';
 
 class Navigation extends Component {
@@ -8,7 +7,7 @@ class Navigation extends Component {
       <div className="w3-black">
       <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black w3-border-right w3-border-blue w3-left ">
         <div className="w3-container">
-          <img className="w3-image"src={RishiBhai}/>
+          <img className="w3-image"src="https://s3.us-east-2.amazonaws.com/cookbookpic/RishiBhai.png"/>
           </div>
         <div className="w3-opacity w3-hover-opacity-off">
         <a href="#" className="w3-bar-item w3-button w3-padding-large w3-hover-blue">

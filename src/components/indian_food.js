@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../w3.css';
 import './home.css';
-import paratha from '../img/rice_paratha.jpg';
-import biryani from '../img/Chicken_Biryani.jpg';
 import Singularsnack from './Singularsnack.js';
 
 const paratha_ing = ["1.5 cups of cooked rice","1 cup wheat flour",".25 tsp ajwai seed and cumin seeds", "coriander leaves","1 tbsp yogurt","3 crushed green chillies"];
@@ -12,13 +10,13 @@ const Biryani_steps = ["In a bowl add chicken,tumeric,salt, and keep out side fo
 
 const all_indian = [
   {
-    image: paratha,
+    image: "https://s3.us-east-2.amazonaws.com/cookbookpic/rice_paratha.jpg",
     title: 'Rice Paratha',
     ingredients: paratha_ing,
     instructions: paratha_steps
   },
   {
-    image: biryani,
+    image: "https://s3.us-east-2.amazonaws.com/cookbookpic/Chicken_Biryani.jpg",
     title: 'Biryani',
     ingredients: Biryani_ing,
     instructions: Biryani_steps
